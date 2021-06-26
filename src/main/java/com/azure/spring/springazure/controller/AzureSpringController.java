@@ -8,6 +8,6 @@ public class AzureSpringController {
 
     @GetMapping("/message")
     public String getMessage(){
-        return "You are now in delpoyed te Spring boot app in Azure cloud App service";
+        return "You are now in delpoyed te Spring boot app in Azure cloud App service. This is the second commit on the repo on master brnach so check the CICI pipeline";
     }
 }
